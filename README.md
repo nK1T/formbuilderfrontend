@@ -33,7 +33,7 @@ This is the frontend for the **Form Builder Application**, built using **React.j
 ### Prerequisites
 
 - Node.js (>=14.x.x)
-- Backend server running (Refer to the [backend repository](<backend-repository-link>) for setup instructions)
+- Backend server running (Refer to the [backend repository](<[backend-repository-link](https://github.com/nK1T/formbuilderbackend)>) for setup instructions)
 
 ### Installation
 
@@ -53,4 +53,4 @@ This is the frontend for the **Form Builder Application**, built using **React.j
    ```bash
    npm start
 
-#### By default, the application will run at http://localhost:3000.
+#### By default, the application will run at http://localhost:5000.

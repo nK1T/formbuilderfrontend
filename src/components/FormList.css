@@ -1,0 +1,96 @@
+.form-list-container {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-list-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-form-link {
+  display: block;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.create-form-link:hover {
+  background-color: #45a049;
+}
+
+.form-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.form-list-item {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.form-list-item:hover {
+  transform: translateY(-5px);
+}
+
+.no-forms-message {
+  text-align: center;
+}
+
+.form-title-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-title-link:hover {
+  color: #4caf50;
+}
+.form-action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-action-button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-action-button.edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.form-action-button.edit:hover {
+  background-color: #45a049;
+}
+
+.form-action-button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.form-action-button.delete:hover {
+  background-color: #e53935;
+}

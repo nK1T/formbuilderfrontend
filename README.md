@@ -1,8 +1,56 @@
-# React + Vite
+# Form Builder Application - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Form Builder Application**, built using **React.js**. It provides an intuitive user interface for creating, viewing, and managing forms with custom input fields.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+
+---
+
+## Features
+
+- Create dynamic forms with custom input fields.
+- Real-time preview of forms while editing.
+- Manage forms with options to edit, delete, or view submissions.
+- Responsive design for various screen sizes.
+
+---
+
+## Technologies Used
+
+- **React.js**: Frontend library for building the UI.
+- **React Router**: For handling navigation and routing.
+- **Axios**: For API calls to the backend.
+- **CSS Modules**: For styling components.
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js (>=14.x.x)
+- Backend server running (Refer to the [backend repository](<backend-repository-link>) for setup instructions)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+
+2. Install dependencies::
+
+   ```bash
+   npm install
+
+3. Start the development server:
+
+   ```bash
+   npm start
+
+#### By default, the application will run at http://localhost:3000.

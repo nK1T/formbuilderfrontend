@@ -33,7 +33,8 @@ This is the frontend for the **Form Builder Application**, built using **React.j
 ### Prerequisites
 
 - Node.js (>=14.x.x)
-- Backend server running (Refer to the [backend repository](<[backend-repository-link](https://github.com/nK1T/formbuilderbackend)>) for setup instructions)
+- Backend server running (Refer to the [backend repository](https://github.com/nK1T/formbuilderbackend) for setup instructions)
+
 
 ### Installation
 
